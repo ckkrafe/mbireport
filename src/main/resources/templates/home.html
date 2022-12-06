@@ -9,8 +9,7 @@
     <p>bello</p>
     <p>bello</p>
     <p>bello</p>
-    <button th:action="@{/create}">Create</button>
-    <button th:action="@{/search}">Search</button>
-    <button a href="/search">Search1</button>
+    <input type="button" value = "Create" th:onclick ="location='/create'"/>
+    <button th:onclick ="location='/search'"/>Search</button>
 </body>
 </html>

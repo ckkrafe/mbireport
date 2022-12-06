@@ -3,13 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>Create a report</title>
 </head>
 <body>
-<p>bello</p>
-<p>bello</p>
-<p>bello</p>
-<button th:action="@(/create">Create</button>
-<button th:action="@(/search">Search</button>
+    <p>Hello</p>
+    <p th:{report.address}></p>
+<!--    <form class="header" th:action="@{/create}" method="post" th:object="${ReportObjectDto}">-->
+<!--        <input type="text" id="input" placeholder="New Item..." th:field="*{ReportObjectDto.address}">-->
+<!--        <button type="submit" class="addBtn">Add</button>-->
+<!--    </form>-->
 </body>
 </html>

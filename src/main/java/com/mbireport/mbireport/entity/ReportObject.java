@@ -1,9 +1,12 @@
 package com.mbireport.mbireport.entity;
 
+import lombok.Data;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 
 import java.util.Date;
 @EntityScan
+@Data
 public class ReportObject {
     private String buildingName;
     private String address;
