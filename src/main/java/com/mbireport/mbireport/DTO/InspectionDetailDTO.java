@@ -1,2 +1,4 @@
-package com.mbireport.mbireport.DTO;public class InspectionDetailDTO {
+package com.mbireport.mbireport.DTO;
+
+public class InspectionDetailDTO {
 }
